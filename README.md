@@ -1,4 +1,3 @@
-
 <div align="center">
 
 ```
@@ -10,337 +9,360 @@
 ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝      ╚═════╝ ╚══════╝╚═════╝ 
 ```
 
-# 🧺 The Web App That Will Change Your Life\*
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd6enVwMHJmMzB6NW9icGhvcTdyYjV0dmk5ZXJ4N25pczlocHVvdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgG50Lg7rusRgqA/giphy.gif" width="480" alt="laundry spinning" />
 
-### *\*results may vary. clothes freshness guaranteed. life changes not guaranteed.*
+### *The only laundry booking app built entirely from a place of anxiety and spite*
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=Your+clothes+were+suffering.;We+fixed+that.;You're+welcome.;%F0%9F%A7%BA+FreshFold+%F0%9F%A7%BA" alt="Typing SVG" />
-
-<br/>
-
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](.)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](.)
-[![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](.)
-[![EmailJS](https://img.shields.io/badge/EmailJS-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](.)
-[![No NPM](https://img.shields.io/badge/npm_install-NEVER_AGAIN-success?style=for-the-badge&logo=npm)](.)
-[![Vibes](https://img.shields.io/badge/VIBES-IMMACULATE-blueviolet?style=for-the-badge)](.)
-[![Assignment](https://img.shields.io/badge/Tutedude-Assignment_04-orange?style=for-the-badge)](.)
-
-<br/>
-
-> *"This is either the best laundry website or the best laundry website."*
-> — Me, to myself, at 2am
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2196F3&center=true&vCenter=true&width=700&lines=No+React.+No+Vue.+No+problem.;Vanilla+JS+supremacy+%F0%9F%91%8A;Your+clothes+were+suffering.+We+fixed+that.;EmailJS+goes+absolutely+crazy+%F0%9F%94%A5;Zero+node_modules.+Zero+regrets." alt="Typing SVG" />
 
 </div>
 
 ---
 
-## � IMPORTANT NOTICE 🚨
+## 🚨 READ THIS FIRST
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWoxaWdqMGdtdGR3aHpoMm9oNnR1djZyZm84eDJ5eHNuMXJ5NWNlbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif" width="300" alt="warning" />
+</div>
 
 ```
-⚠️  WARNING: This README contains traces of:
-    - Unnecessary drama
-    - Completely valid HTML/CSS/JS
-    - An anime character being used as a business logo
-    - Real email confirmations (EmailJS goes crazy)
-    - Zero node_modules (yes, really)
-
-    Side effects may include: wanting clean laundry,
-    actually submitting the assignment, and mild pride.
-```
-
----
-
-## 😤 The Origin Story
-
-Picture this. It's Monday morning. You have a presentation.
-
-Your shirt? **Destroyed.**  
-Your confidence? **Gone.**  
-Your backup shirt? **Also destroyed somehow.**
-
-Normal person: goes to a laundromat.  
-**Mepaayush:** builds an entire laundry booking web app instead.
-
-*FreshFold was born from chaos. Like most great things.*
-
----
-
-## ⚡ Tech Stack (or lack thereof)
-
-```
-🧱 HTML5         →  the bones
-🎨 CSS3          →  the drip
-⚙️  Vanilla JS   →  the brains
-📧 EmailJS       →  sends actual emails (not fake ones)
-🔤 Google Fonts  →  Inter, because we have taste
-🎯 Font Awesome  →  icons that don't look like clip art
-🖼️  Inline SVGs  →  zero broken images, maximum respect
-```
-
-**What we did NOT use:**
-```diff
-- React        (overkill for laundry)
-- Vue          (also overkill for laundry)  
-- Angular      (criminally overkill for laundry)
-- Bootstrap    (we write our own CSS around here)
-- npm install  (not today, node_modules)
-- jQuery       (it's 2026, we move on)
+⚠️  THIS REPO CONTAINS:
+    ✔  Fully working laundry booking system
+    ✔  Real EmailJS email confirmations (not fake)
+    ✔  An anime character used as an official business logo
+    ✔  Hand-crafted SVG washing machine (no stock images)
+    ✔  700+ lines of vanilla CSS with zero frameworks
+    ✔  A README longer than most university dissertations
 ```
 
 ---
 
-## 🗂️ The Sacred File Structure
+## 😤 Origin Story
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWk1Z2ZwYzBpMnc1aGd3Y3hzNXFvMnR6dnd2YW96ZWd2dHFuaXlvMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0MYt5jPR6QX5pnqM/giphy.gif" width="380" alt="frustrated" />
+</div>
+
+It's Monday. 8am. You have a presentation at 9.
+
+Your shirt looks like it lost a fight with a washing machine (the irony).  
+Your backup shirt is somehow worse.  
+Your confidence: **deleted**.
+
+A normal person calls a laundry service.  
+**Mepaayush** builds the entire booking platform instead.
+
+*FreshFold was born from chaos. Like all great software.*
+
+---
+
+## 🏗️ Architecture Deep Dive
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTZ3NHZybzFwNXViZml1eWl3dDZjaGkwbXp4aGE0ZHY5dWZlM2loMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LaVp0AyqR5bGsC5Cbm/giphy.gif" width="400" alt="architecture" />
+</div>
+
+This is a **Single Page Application (SPA)** built without any framework. Here's how the pieces actually talk to each other:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        BROWSER (Client)                         │
+│                                                                 │
+│  ┌──────────┐    ┌──────────┐    ┌──────────────────────────┐  │
+│  │index.html│───▶│ style.css│    │       script.js          │  │
+│  │  (DOM)   │    │(Render)  │    │                          │  │
+│  └──────────┘    └──────────┘    │  ┌────────┐ ┌────────┐  │  │
+│       │                          │  │ CART   │ │ MODAL  │  │  │
+│       │ renders                  │  │ STATE  │ │MANAGER │  │  │
+│       ▼                          │  │(Set{}) │ │        │  │  │
+│  ┌──────────────────────────┐    │  └───┬────┘ └────────┘  │  │
+│  │  DOM Elements / Sections │◀───│      │                   │  │
+│  │  - Navbar                │    │  ┌───▼──────────────┐   │  │
+│  │  - Hero                  │    │  │  renderServices() │   │  │
+│  │  - Services Panel        │    │  │  updateCartUI()   │   │  │
+│  │  - Booking Panel         │    │  │  handleBooking()  │   │  │
+│  │  - Modals (5x)           │    │  └───────────────────┘   │  │
+│  └──────────────────────────┘    └────────────┬─────────────┘  │
+└───────────────────────────────────────────────┼────────────────┘
+                                                │ emailjs.send()
+                                                ▼
+                              ┌─────────────────────────────┐
+                              │      EmailJS CDN API        │
+                              │  cdn.jsdelivr.net/npm/      │
+                              │  @emailjs/browser@4         │
+                              └──────────────┬──────────────┘
+                                             │ SMTP relay
+                                             ▼
+                                   ┌──────────────────┐
+                                   │  User's Inbox 📧  │
+                                   │  (Gmail/Outlook)  │
+                                   └──────────────────┘
+```
+
+### Why No Framework?
+
+This is a **content + interaction** site with three core interactions:
+1. Toggle items in/out of a cart (a `Set`)
+2. Submit a form
+3. Open/close modals
+
+Adding React would mean: virtual DOM diffing, JSX compilation, a bundler, `node_modules` at 300MB, and three config files. For what is essentially a fancy to-do list with email. **Vanilla JS is the correct tool here.**
+
+---
+
+## 🧠 State Management — How the Cart Actually Works
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanJ6NHpmNmlhZGhqYjRzcXJzZW43emNreGY2bWZlcm82Y3o4M3ppbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPEqDGUULpEU0aQ/giphy.gif" width="360" alt="coding" />
+</div>
+
+No Redux. No Zustand. No Context API. Just a JavaScript `Set`.
+
+```js
+// The entire cart state. That's it.
+let cart = new Set(); // stores service IDs (integers)
+
+// Toggle logic — O(1) lookup, O(1) add, O(1) delete
+function toggleCart(id) {
+  if (cart.has(id)) {
+    cart.delete(id);   // already in cart → remove
+  } else {
+    cart.add(id);      // not in cart → add
+  }
+  updateCartUI();      // re-render the table
+  updateButton(id);    // flip the button state
+}
+```
+
+**Why `Set` instead of `Array`?**
+- `Set.has()` is O(1). `Array.includes()` is O(n).
+- No duplicate service entries — a `Set` enforces this automatically.
+- Clean API: `.add()`, `.delete()`, `.has()`, `.clear()`.
+
+**Total calculation on every render:**
+```js
+const total = SERVICES
+  .filter(s => cart.has(s.id))       // only items in cart
+  .reduce((sum, s) => sum + s.price, 0); // sum their prices
+```
+
+This recalculates from the source of truth (`SERVICES` array + `cart` Set) every time — no stale state, no sync bugs.
+
+---
+
+## 📧 EmailJS Integration — Technical Breakdown
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnZmeXg5Mmd5eTZqeHZucmd5M3JsMDhsb2t0MjZjbjY3OW0ydm54aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif" width="380" alt="email" />
+</div>
+
+EmailJS is a **client-side email service** that acts as an SMTP relay. Here's the full call chain:
+
+```
+User clicks "Book Now"
+        │
+        ▼
+handleBooking(event)
+        │
+        ├── 1. event.preventDefault()  ← stop page reload
+        ├── 2. Validate cart.size > 0  ← must have services
+        ├── 3. Build templateParams{}  ← collect form values
+        │        {
+        │          to_name, to_email, user_phone,
+        │          services_list, total_amount, booking_id
+        │        }
+        ├── 4. Disable submit button   ← prevent double submit
+        │
+        ▼
+emailjs.send(serviceId, templateId, templateParams)
+        │
+        ├── SUCCESS → showSuccess() → open modal → resetForm()
+        │
+        └── CATCH   → showSuccess(emailFailed=true)
+                       ↑ booking still confirmed, just warns
+                         about EmailJS config
+```
+
+**Booking ID generation:**
+```js
+const bookingId = "LS" + Date.now().toString(36).toUpperCase();
+// Date.now() → milliseconds since epoch → base-36 → uppercase
+// Result: "LS1A2B3C4D" — short, unique, time-based
+```
+
+**Setting up EmailJS (5 minutes):**
+
+```
+1. emailjs.com → free account
+2. Add Email Service → connect Gmail
+3. Create Template → use these variable names exactly:
+   {{to_name}}  {{to_email}}  {{user_phone}}
+   {{services_list}}  {{total_amount}}  {{booking_id}}
+4. In script.js, replace the 3 constants at the top
+```
+
+---
+
+## 🎨 CSS Architecture
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGZkbXJ5aGZ6NzFydThzejN3aGx5eTVydG9xcDVsNXVkcXV6ZHZhaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13FrpeVH09Zrb2/giphy.gif" width="300" alt="css magic" />
+</div>
+
+No frameworks. All custom. Here's the system:
+
+**CSS Custom Properties (design tokens):**
+```css
+:root {
+  --blue: #2196f3;          /* primary brand colour */
+  --blue-dark: #1565c0;     /* hover states */
+  --blue-light: #e3f2fd;    /* backgrounds, badges */
+  --text: #1a1a2e;          /* body text */
+  --muted: #6b7280;         /* secondary text */
+  --border: #e5e7eb;        /* all borders */
+  --bg: #f8fafc;            /* section backgrounds */
+  --radius: 10px;           /* consistent rounding */
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+```
+
+Changing `--blue` propagates across the **entire UI** — buttons, badges, links, panels, focus rings — instantly. This is how you maintain a design system without Tailwind.
+
+**Responsive strategy — mobile-first breakpoints:**
+```css
+/* Base styles → mobile */
+.sb-inner { grid-template-columns: 1fr; }
+
+/* Tablet+ */
+@media (min-width: 768px) {
+  .sb-inner { grid-template-columns: 1fr 1fr; }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .features-inner { grid-template-columns: repeat(4, 1fr); }
+}
+```
+
+**The floating animation (hero image):**
+```css
+@keyframes float {
+  0%, 100% { transform: translateY(0);    }
+  50%       { transform: translateY(-16px); }
+}
+/* Applied with: animation: float 4s ease-in-out infinite */
+/* ease-in-out makes it feel organic, not robotic */
+```
+
+---
+
+## 🖼️ Why Inline SVGs (Not `<img>` Tags)
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXQxaHBtaW43dThoN29ycXZhMHo5eTVteWVycjBtdzl3N3BxMTloZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2K5jinAlChoCLS/giphy.gif" width="320" alt="smart" />
+</div>
+
+Every image in this project is either an inline SVG or a local file. Here's why:
+
+| Method | Network Req | CORS Risk | Broken Link Risk | Scalable |
+|--------|-------------|-----------|-----------------|----------|
+| `<img src="https://...">` | ✅ yes | ❌ high | ❌ high | ✅ |
+| `<img src="local.png">` | ❌ no | ❌ none | low | ✅ |
+| Inline `<svg>` | ❌ none | ❌ none | ❌ impossible | ✅ |
+
+The washing machine illustration uses **SVG `<clipPath>`** to clip the drum contents (shirt + water) inside the circular porthole — same technique CSS `overflow: hidden` + `border-radius` would use, but in pure vector:
+
+```svg
+<clipPath id="drumClip">
+  <circle cx="170" cy="222" r="76"/>
+</clipPath>
+<g clip-path="url(#drumClip)">
+  <!-- shirt shape, water fill, bubbles — all clipped to circle -->
+</g>
+```
+
+---
+
+## 🗂️ File Structure
 
 ```
 📦 Tutedude_assigment_04Mern_Stack/
 │
-├── 🧠 index.html     ← The entire universe lives here
-│                       navbar, hero, services, booking,
-│                       features, newsletter, footer,
-│                       5 modals. ONE FILE. UNHINGED.
+├── 🧠 index.html    ← Entire UI: navbar, hero, services, booking,
+│                      features, newsletter, footer + 5 modals
+│                      (Booking confirm + Privacy + Terms + Refund + Toast)
 │
-├── 💅 style.css      ← 700+ lines of hand-written CSS
-│                       responsive, clean, no !important abuse
-│                       (mostly)
+├── 💅 style.css     ← ~750 lines, CSS custom properties, 3 breakpoints,
+│                      no !important abuse, BEM-ish naming
 │
-├── ⚡ script.js      ← Cart logic, EmailJS, toasts, modals
-│                       written at a speed that would concern
-│                       most medical professionals
+├── ⚡ script.js     ← Cart (Set-based), EmailJS, DOM rendering,
+│                      modal manager, toast system, page modals
 │
-├── 🖼️  logo.png      ← An anime character. As a business logo.
-│                       Perfectly normal. Carry on.
+├── 🖼️  logo.png     ← An anime character. Professionally used as a logo.
+│                      No notes.
 │
-└── 📖 README.md      ← You are currently inside this file.
-                        Hi. Welcome. Please wipe your feet.
+└── 📖 README.md     ← You are currently inside this file.
 ```
 
 ---
 
-## 🎮 Feature Showcase
-
-<details>
-<summary><b>🧭 Navbar — click to expand</b></summary>
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  [🖼️ logo]  Home  Services  About Us  Contact Us  [Mepaayush] │
-└─────────────────────────────────────────────────────────┘
-```
-- Fixed to the top. Follows you everywhere like a golden retriever.
-- Blurs the background behind it like it's running iOS.
-- On mobile: collapses into a hamburger. The hamburger works. I checked.
-- "Mepaayush" is in a little blue pill on the right. Looking fresh.
-</details>
-
-<details>
-<summary><b>🦸 Hero Section — click to expand</b></summary>
-
-```
-LEFT SIDE                        RIGHT SIDE
-─────────────────────            ─────────────────────
-Revitalize Your                  ╭──────────────╮
-Clothes with Expert              │  🫧  🫧        │
-Laundry Services!                │  ┌──────────┐ │
-                                 │  │ [PANEL]  │ │
-From premium dry cleaning...     │  │  👔  🌊  │ │  ← shirt inside
-                                 │  └──────────┘ │
-[📅 Book a service today!]       │      👣  👣   │
-                                 ╰──────────────╯
-```
-- The washing machine is a **custom hand-drawn SVG**. No stock images. No broken links. Pure artistry (debatable).
-- It floats up and down on a CSS animation like it's vibing.
-- The button scrolls you directly to booking. Smooth scroll. Very smooth.
-</details>
-
-<details>
-<summary><b>🛒 Services + Cart — the main event</b></summary>
-
-```
-LEFT PANEL                    RIGHT PANEL
-──────────────────            ──────────────────────────────
-Our Services                  Added Items
-──────────────────            ┌──┬──────────────────┬───────┐
-👔 Dry Cleaning  ₹200  [Add]  │1 │ Dry Cleaning     │ ₹200  │
-🧺 Wash & Fold   ₹100  [Add]  │2 │ Ironing          │ ₹30   │
-🧹 Ironing        ₹30 [REMOVE]│3 │ Wedding Dress... │ ₹2800 │
-🧪 Stain Removal ₹500  [Add]  └──┴──────────────────┴───────┘
-🧥 Leather...    ₹999  [Add]  
-👗 Wedding...   ₹2800  [Add]  Total Amount:  ₹3030.00
-                              
-                              Full Name: ____________
-                              Email: ______ Phone: ___
-                              [   Book now   ]
-```
-
-Add → button goes **red** → becomes Remove. Live total updates. Chef kiss.
-</details>
-
-<details>
-<summary><b>📧 EmailJS — yes it sends a REAL email</b></summary>
-
-When you click Book Now, an actual email fires to the user with:
-- Booking ID (auto-generated, looks professional)
-- All selected services + prices
-- Total amount
-- Your name and contact details
-
-No backend. No server. No PHP from 2009. Just EmailJS doing its thing.
-</details>
-
-<details>
-<summary><b>📄 Legal Pages — Privacy, Terms, Refund</b></summary>
-
-Three full pages of actual content (not Lorem Ipsum).  
-Open in sleek modals. Close with ✕ or Escape key.  
-Written like real policies but slightly funnier.  
-Your lawyer will be proud. Probably.
-</details>
-
----
-
-## 🗺️ App Sections Map
-
-```
-🏠 HOME (Hero)
-    ↓
-🏆 ACHIEVEMENTS BANNER  ←── 15+  |  240+  |  2+ Yrs
-    ↓
-🛒 SERVICES + BOOKING   ←── The main event
-    ↓
-✨ FEATURES             ←── Premium · Support · Delivery · Price
-    ↓
-📮 NEWSLETTER           ←── Subscribe (we won't spam, pinky promise)
-    ↓
-🦶 FOOTER               ←── Links · Contact · Socials · Legal Modals
-```
-
----
-
-## 🚀 Run It Locally (takes 11 seconds)
+## 🚀 Run Locally
 
 ```bash
-# Step 1: Clone
+# Clone
 git clone https://github.com/Nick-ded/Tutedude_assigment_04Mern_Stack.git
-
-# Step 2: Enter
 cd Tutedude_assigment_04Mern_Stack
 
-# Step 3: Pick your weapon
-npx serve .           # if you have Node (recommended)
-python -m http.server # if you have Python
-# OR just double-click index.html like it's 2008
+# Serve (pick one)
+npx serve .            # Node.js — http://localhost:3000
+python -m http.server  # Python  — http://localhost:8000
 
-# Step 4: Open browser
-# http://localhost:3000
-# That's it. No .env file. No config. No tears.
-```
-
----
-
-## 📧 EmailJS Setup (5 minutes, I timed it)
-
-```
-1. Go to emailjs.com → sign up (free tier is enough)
-2. Add an Email Service (Gmail works great)
-3. Create a Template with these variables:
-
-   {{to_name}}        ← customer name
-   {{to_email}}       ← where the email goes
-   {{user_phone}}     ← their number  
-   {{services_list}}  ← what they booked
-   {{total_amount}}   ← how much they owe
-   {{booking_id}}     ← auto-generated ID
-
-4. Open script.js, find this at the top:
-```
-
-```js
-const EMAILJS = {
-  publicKey:  "YOUR_PUBLIC_KEY",   // Account > API Keys
-  serviceId:  "YOUR_SERVICE_ID",   // Email Services tab
-  templateId: "YOUR_TEMPLATE_ID",  // Email Templates tab
-};
-```
-
-```
-5. Replace the three values. Save. Book something. Check inbox.
-   You're welcome.
+# Or just open index.html directly in Chrome.
+# No build step. No bundler. Just vibes.
 ```
 
 ---
 
 ## 📱 Responsive Breakdown
 
-| Screen | What Happens |
-|--------|-------------|
-| 🖥️ 1440px+ | Full two-column layout, floating cards, maximum drip |
-| 💻 1024px | Same but slightly cozier |
-| 📱 768px | Single column, hamburger menu appears, stacks gracefully |
-| � 375px | Still works. Tested. Don't @ me. |
-| ⌚ Apple Watch | Genuinely no idea. Probably fine. |
-| 🖨️ Printer | Ctrl+P at your own risk |
+| Viewport | Layout | Notes |
+|----------|--------|-------|
+| 1440px+ | Two-column hero + services/booking side-by-side | Full drip |
+| 1024px | Same, tighter gaps | Still clean |
+| 768px | Single column, hamburger menu | Graceful stack |
+| 375px | Everything stacked, form fields full-width | Tested |
+| ⌚ Watch | No idea | Probably vibes |
 
 ---
 
 ## ✅ Assignment Checklist
 
-```
-Tutedude Assignment 04 — Official Requirements
-```
-
-- [x] Responsive Navbar → Logo + Nav Links + Username
-- [x] Hero Section → Left div (heading + desc + CTA) / Right div (image)
-- [x] "Book a Service Today" scrolls to booking section
+- [x] Responsive navbar → Logo + Nav Links + Username (Mepaayush)
+- [x] Hero Section → Left (heading + desc + CTA scroll button) + Right (image)
+- [x] "Book a Service Today" scrolls to booking
 - [x] Service Overview banner → 15+ / 240+ / 2+ Yrs
-- [x] Services with cart add/remove functionality
-- [x] Booking form → Name, Email ID, Phone Number
-- [x] Book Now triggers EmailJS
-- [x] Email confirmation sent to user
-- [x] All footer links functional
-- [x] Responsive design
-- [x] Submitted before deadline (hopefully)
-- [x] README that goes way too hard for an assignment 🫡
-
----
-
-## 🧠 Things I Learned Building This
-
-```
-✅  SVGs are underrated
-✅  EmailJS is genuinely magical
-✅  You don't need a framework for everything
-✅  Anime characters make surprisingly good logos
-✅  CSS animations hit different when you write them yourself
-✅  Writing a README at this length is a cry for help
-    and also a flex simultaneously
-```
+- [x] Services with live cart add/remove + total
+- [x] Booking form → Full Name, Email ID, Phone Number
+- [x] EmailJS fires on Book Now
+- [x] Email confirmation delivered to user
+- [x] Privacy Policy, Terms of Use, Refund Policy pages (modal-based)
+- [x] Fully responsive
+- [x] Zero broken images
+- [x] README that goes dangerously hard 🫡
 
 ---
 
 <div align="center">
 
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWwxMjhtNXdqN2Fqa3lzMGdtdnZqMmE5NmFhbG50bmp6bG1sMzZkMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26u4cqiYI30juCOGY/giphy.gif" width="400" alt="done" />
+
 ---
 
-### Built by **Mepaayush** for Tutedude Assignment 04
+### Built by **Mepaayush** · Tutedude MERN Stack · Assignment 04
 
 *No node_modules were harmed in the making of this project.*
 
-```
-   (  )   (   )  )
-    ) (   )  (  (       🧺
-    ( )  (    ) )       fresh fold
-    _____________       go wash ur clothes
-   <_____________> ___
-   |             |/ _ \
-   |               | | |
-   |               |_| |
-___|             |\___/
-/    \___________/    \
-\_____________________/
-```
-
-**⭐ Star this repo if your laundry situation improved after viewing it**
+**⭐ Star this if your shirts are cleaner now**
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Nick-ded.Tutedude_assigment_04Mern_Stack)
 
