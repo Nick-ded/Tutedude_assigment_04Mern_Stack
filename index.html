@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laundry Services</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- ── NAVBAR ── -->
+    <nav class="navbar">
+      <div class="nav-inner">
+        <div class="logo">
+          <img src="logo.png" alt="Logo" class="logo-img" />
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="nav-username">Mepaayush</div>
+        <button class="hamburger" id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <!-- Left -->
+        <div class="hero-left">
+          <h1>Revitalize Your<br />Clothes with Expert<br /><span class="blue">Laundry Services!</span></h1>
+          <p>From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!</p>
+          <button class="btn-book-hero" onclick="scrollToServices()">
+            <i class="fa-regular fa-calendar"></i> Book a service today!
+          </button>
+        </div>
+        <!-- Right -->
+        <div class="hero-right">
+          <!--
+            HERO IMAGE OPTIONS — uncomment the one you want, comment the rest
+            A = Modern white machine with shadow (current default)
+            B = Colourful bubbly 3D-style  
+            C = Minimal flat line art
+            D = Dark premium style
+          -->
+
+          <!-- ▼ OPTION A: Modern white with drop-shadow ▼ -->
+          <svg class="hero-img" id="hero-svg" viewBox="0 0 340 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- shadow -->
+            <ellipse cx="170" cy="368" rx="100" ry="10" fill="#c8dff5" opacity="0.6"/>
+            <!-- body -->
+            <rect x="20" y="30" width="300" height="320" rx="28" fill="white"/>
+            <rect x="20" y="30" width="300" height="320" rx="28" stroke="#dde8f5" stroke-width="2"/>
+            <!-- top panel gradient -->
+            <rect x="20" y="30" width="300" height="72" rx="28" fill="#2196f3"/>
+            <rect x="20" y="74" width="300" height="28" fill="#2196f3"/>
+            <!-- panel shine -->
+            <rect x="20" y="30" width="300" height="36" rx="28" fill="white" opacity="0.08"/>
+            <!-- dial knob -->
+            <circle cx="72" cy="66" r="20" fill="white" opacity="0.15"/>
+            <circle cx="72" cy="66" r="14" fill="white" opacity="0.9"/>
+            <circle cx="72" cy="66" r="8"  fill="#1976d2"/>
+            <circle cx="75" cy="63" r="2"  fill="white" opacity="0.6"/>
+            <!-- small button -->
+            <circle cx="116" cy="66" r="10" fill="white" opacity="0.2"/>
+            <circle cx="116" cy="66" r="6"  fill="white" opacity="0.8"/>
+            <!-- display screen -->
+            <rect x="138" y="50" width="116" height="32" rx="8" fill="#0d47a1"/>
+            <rect x="146" y="57" width="56" height="7" rx="3" fill="#42a5f5" opacity="0.9"/>
+            <rect x="146" y="68" width="38" height="5" rx="2" fill="#64b5f6" opacity="0.6"/>
+            <rect x="188" y="68" width="14" height="5" rx="2" fill="#ef5350" opacity="0.8"/>
+            <!-- power button -->
+            <circle cx="236" cy="66" r="9"  fill="white" opacity="0.15"/>
+            <circle cx="236" cy="66" r="6"  fill="white" opacity="0.7"/>
+            <path d="M236 61 v5" stroke="#2196f3" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M233 62.5 a5 5 0 1 0 6 0" stroke="#2196f3" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+            <!-- detergent drawer -->
+            <rect x="36" y="108" width="62" height="16" rx="5" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5"/>
+            <rect x="42" y="112" width="18" height="8" rx="2" fill="#90caf9" opacity="0.5"/>
+            <rect x="64" y="112" width="18" height="8" rx="2" fill="#bbdefb"/>
+            <!-- door outer ring -->
+            <circle cx="170" cy="222" r="105" fill="#f0f7ff" stroke="#dde8f5" stroke-width="2"/>
+            <!-- door bezel -->
+            <circle cx="170" cy="222" r="92"  fill="white" stroke="#c5d8f0" stroke-width="3"/>
+            <!-- glass -->
+            <circle cx="170" cy="222" r="78"  fill="#e8f4ff"/>
+            <!-- water/clothes inside -->
+            <clipPath id="drumClip">
+              <circle cx="170" cy="222" r="76"/>
+            </clipPath>
+            <g clip-path="url(#drumClip)">
+              <!-- water -->
+              <ellipse cx="170" cy="262" rx="78" ry="38" fill="#bbdefb" opacity="0.7"/>
+              <!-- shirt shape -->
+              <path d="M148 210 q6-18 22-18 q16 0 22 18 l8 4 l-4 8 l-8-4 v30 h-36 v-30 l-8 4 l-4-8 z" fill="#ef5350" opacity="0.85"/>
+              <!-- collar -->
+              <path d="M162 192 q8-6 16 0" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+              <!-- bubbles inside drum -->
+              <circle cx="140" cy="245" r="7"  fill="white" opacity="0.6"/>
+              <circle cx="198" cy="238" r="5"  fill="white" opacity="0.5"/>
+              <circle cx="160" cy="255" r="4"  fill="white" opacity="0.4"/>
+              <circle cx="185" cy="252" r="6"  fill="white" opacity="0.45"/>
+            </g>
+            <!-- door inner ring shine -->
+            <circle cx="170" cy="222" r="78"  fill="none" stroke="white" stroke-width="4" opacity="0.5"/>
+            <!-- door handle -->
+            <rect x="248" y="212" width="10" height="20" rx="5" fill="#c5d8f0" stroke="#aac4e0" stroke-width="1.5"/>
+            <!-- feet -->
+            <rect x="58"  y="342" width="36" height="10" rx="5" fill="#dde8f5"/>
+            <rect x="246" y="342" width="36" height="10" rx="5" fill="#dde8f5"/>
+            <!-- floating bubbles outside -->
+            <circle cx="310" cy="120" r="14" fill="#bbdefb" opacity="0.5"/>
+            <circle cx="328" cy="96"  r="9"  fill="#90caf9" opacity="0.4"/>
+            <circle cx="295" cy="96"  r="6"  fill="#64b5f6" opacity="0.35"/>
+            <circle cx="22"  cy="160" r="10" fill="#bbdefb" opacity="0.4"/>
+            <circle cx="12"  cy="140" r="6"  fill="#90caf9" opacity="0.3"/>
+          </svg>
+          <!-- ▲ END OPTION A ▲ -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ACHIEVEMENTS ── -->
+    <section class="achievements">
+      <div class="ach-inner">
+        <div class="ach-title">Our Achievements</div>
+        <div class="ach-stats">
+          <div class="ach-stat">
+            <strong>15+</strong>
+            <span>Laundry Services</span>
+          </div>
+          <div class="ach-stat">
+            <strong>240+</strong>
+            <span>Happy Customers</span>
+          </div>
+          <div class="ach-stat">
+            <strong>2+ Yrs</strong>
+            <span>Experience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SERVICES + BOOKING ── -->
+    <section class="services-booking" id="services">
+      <div class="sb-inner">
+
+        <!-- Left: Services List -->
+        <div class="services-panel">
+          <h2>Our Services</h2>
+          <p class="services-sub">Click On The Add To Cart Button To Add The Services To Your Cart</p>
+          <div class="services-list" id="servicesList">
+            <!-- rendered by JS -->
+          </div>
+          <p class="cart-hint" id="cartHint">
+            <i class="fa-regular fa-circle-question"></i>
+            Add the items to the cart and book now
+          </p>
+        </div>
+
+        <!-- Right: Added Items + Booking Form -->
+        <div class="booking-panel">
+          <h3>Added Items</h3>
+          <div class="added-table-wrap">
+            <table class="added-table">
+              <thead>
+                <tr>
+                  <th>S.No</th>
+                  <th>Service Name</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody id="cartTableBody">
+                <!-- filled by JS -->
+              </tbody>
+            </table>
+            <div class="empty-msg" id="emptyMsg">No items added yet.</div>
+          </div>
+
+          <div class="total-row" id="totalRow">
+            <span>Total Amount</span>
+            <strong id="totalAmount">₹0.00</strong>
+          </div>
+
+          <div class="book-now-form">
+            <h4>Book Now</h4>
+            <form id="bookForm" onsubmit="handleBooking(event)">
+              <div class="form-field">
+                <label>Full Name</label>
+                <input type="text" id="fullName" placeholder="John Doe" required />
+              </div>
+              <div class="form-row-2">
+                <div class="form-field">
+                  <label>Email ID</label>
+                  <input type="email" id="emailId" placeholder="mail@gmail.com" required />
+                </div>
+                <div class="form-field">
+                  <label>Phone Number</label>
+                  <input type="tel" id="phoneNo" placeholder="0000000000" required />
+                </div>
+              </div>
+              <button type="submit" class="btn-booknow" id="bookBtn">Book now</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── FEATURES ── -->
+    <section class="features" id="about">
+      <div class="features-inner">
+
+        <div class="feature-item">
+          <!-- Washing machine / premium services icon -->
+          <svg class="feat-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="8" width="48" height="50" rx="6" stroke="#333" stroke-width="2.2"/>
+            <rect x="8" y="8" width="48" height="16" rx="6" fill="none" stroke="#333" stroke-width="2.2"/>
+            <circle cx="32" cy="38" r="13" stroke="#333" stroke-width="2.2"/>
+            <circle cx="32" cy="38" r="7" stroke="#333" stroke-width="2"/>
+            <circle cx="17" cy="16" r="3" stroke="#333" stroke-width="2"/>
+            <circle cx="27" cy="16" r="2" stroke="#333" stroke-width="1.8"/>
+            <rect x="34" y="12" width="16" height="8" rx="3" stroke="#333" stroke-width="1.8"/>
+          </svg>
+          <h4>Premium Services</h4>
+          <p>Elevate your wardrobe with our meticulous dry cleaning, ensuring garments look and feel as good as new.</p>
+        </div>
+
+        <div class="feature-item">
+          <!-- Headset / quick support icon -->
+          <svg class="feat-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 32C12 20.95 21.0 12 32 12s20 8.95 20 20" stroke="#333" stroke-width="2.2" stroke-linecap="round"/>
+            <rect x="8" y="30" width="8" height="14" rx="4" stroke="#333" stroke-width="2.2"/>
+            <rect x="48" y="30" width="8" height="14" rx="4" stroke="#333" stroke-width="2.2"/>
+            <path d="M56 44c0 5-4 8-8 8H36" stroke="#333" stroke-width="2.2" stroke-linecap="round"/>
+            <circle cx="32" cy="52" r="3" stroke="#333" stroke-width="2"/>
+            <circle cx="32" cy="30" r="5" fill="#e0e0e0" stroke="#333" stroke-width="2"/>
+          </svg>
+          <h4>Quick Support</h4>
+          <p>We're committed to providing prompt solutions to ensure your experience is smooth and worry-free.</p>
+        </div>
+
+        <div class="feature-item">
+          <!-- Delivery truck icon -->
+          <svg class="feat-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="20" width="38" height="26" rx="4" stroke="#333" stroke-width="2.2"/>
+            <path d="M42 28h8l8 10v8h-16V28z" stroke="#333" stroke-width="2.2" stroke-linejoin="round"/>
+            <circle cx="16" cy="50" r="5" stroke="#333" stroke-width="2.2"/>
+            <circle cx="50" cy="50" r="5" stroke="#333" stroke-width="2.2"/>
+            <line x1="4" y1="36" x2="42" y2="36" stroke="#333" stroke-width="2" stroke-dasharray="4 3"/>
+          </svg>
+          <h4>Hassle Free Delivery</h4>
+          <p>Enjoy exceptional care with our convenient pickup and delivery options, tailored to your schedule.</p>
+        </div>
+
+        <div class="feature-item">
+          <!-- Price tag icon -->
+          <svg class="feat-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 8h20l28 28-20 20L8 28V8z" stroke="#333" stroke-width="2.2" stroke-linejoin="round"/>
+            <circle cx="20" cy="20" r="4" stroke="#333" stroke-width="2.2"/>
+            <line x1="24" y1="36" x2="40" y2="36" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+            <line x1="28" y1="42" x2="44" y2="42" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <h4>Affordable Prices</h4>
+          <p>Experience exceptional care without breaking the bank — our affordable prices make laundry day stress-free.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── NEWSLETTER ── -->
+    <section class="newsletter">
+      <div class="nl-inner">
+        <div class="nl-left">
+          <h2>Subscribe to our<br />newsletter.</h2>
+        </div>
+        <div class="nl-right">
+          <form class="nl-form" onsubmit="handleNewsletter(event)">
+            <input type="text" placeholder="Full name" required />
+            <input type="email" placeholder="Email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer class="footer" id="contact">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="logo"><img src="logo.png" alt="Logo" class="logo-img" /></div>
+          <p class="footer-about-label">About us</p>
+          <p class="footer-about-text">
+            Started in 2022 from a tiny apartment with one washing machine and way too many friends asking for help with their laundry.
+            Now we serve 240+ happy customers across the city. Still the same care, just at a bigger scale.
+          </p>
+          <div class="footer-fun-facts">
+            <span>🧺 Folded 10,000+ shirts</span>
+            <span>💧 Zero shrinkage guarantee</span>
+            <span>⚡ 6-hr express available</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Important Links</h5>
+          <ul>
+            <li><a href="#about" onclick="scrollToAbout(event)">About us</a></li>
+            <li><a href="#contact" onclick="scrollToContact(event)">Contact us</a></li>
+            <li><a href="#" onclick="openPage('privacy')">Privacy Policy</a></li>
+            <li><a href="#" onclick="openPage('terms')">Terms of use</a></li>
+            <li><a href="#" onclick="openPage('refund')">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <p>mail@site.com</p>
+          <p>+91 91234 56780</p>
+        </div>
+        <div class="footer-col">
+          <h5>Follow Us</h5>
+          <div class="social-row">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ── SUCCESS MODAL ── -->
+    <div class="modal-overlay" id="modal">
+      <div class="modal-box">
+        <div class="modal-check"><i class="fa-solid fa-circle-check"></i></div>
+        <h3>Booking Confirmed!</h3>
+        <p id="modalMsg"></p>
+        <div class="modal-detail" id="modalDetail"></div>
+        <button class="btn-booknow" onclick="closeModal()">Done</button>
+      </div>
+    </div>
+
+    <!-- ── TOAST ── -->
+    <div class="toast" id="toast"><span id="toastMsg"></span></div>
+
+    <!-- ══════════════════════════════════════
+         PAGE MODALS (Privacy / Terms / Refund)
+         ══════════════════════════════════════ -->
+    <div class="page-overlay" id="pageOverlay" onclick="closePage()">
+      <div class="page-modal" id="pageModal" onclick="event.stopPropagation()">
+        <button class="page-close" onclick="closePage()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="page-content" id="pageContent"></div>
+      </div>
+    </div>
+
+    <!-- PRIVACY POLICY CONTENT -->
+    <template id="tpl-privacy">
+      <div class="doc-wrap">
+        <div class="doc-badge">📄 Legal</div>
+        <h2>Privacy Policy</h2>
+        <p class="doc-date">Last updated: June 7, 2026</p>
+
+        <p>At <strong>FreshFold</strong>, we take your privacy seriously — almost as seriously as we take stain removal. This policy explains what we collect, why we collect it, and how we protect it.</p>
+
+        <h3>1. Information We Collect</h3>
+        <ul>
+          <li><strong>Personal details</strong> — name, email address, phone number, and pickup address when you book a service.</li>
+          <li><strong>Usage data</strong> — pages visited, time spent, buttons clicked (anonymised).</li>
+          <li><strong>Payment data</strong> — we never store card details. All payments are processed by certified third-party gateways.</li>
+        </ul>
+
+        <h3>2. How We Use Your Information</h3>
+        <ul>
+          <li>To confirm and manage your laundry booking.</li>
+          <li>To send you order updates and email confirmations.</li>
+          <li>To improve our services and fix bugs (not your clothes — those are already fixed).</li>
+          <li>To send newsletters only if you explicitly subscribed.</li>
+        </ul>
+
+        <h3>3. Data Sharing</h3>
+        <p>We do <strong>not</strong> sell, rent, or trade your personal information to anyone — ever. We may share minimal data with delivery partners solely to complete your order.</p>
+
+        <h3>4. Cookies</h3>
+        <p>We use cookies to remember your preferences and keep the site running smoothly. You can disable cookies in your browser settings, but some features may not work as expected.</p>
+
+        <h3>5. Data Retention</h3>
+        <p>Your data is retained for 2 years after your last order, then permanently deleted from our systems.</p>
+
+        <h3>6. Your Rights</h3>
+        <p>You have the right to access, correct, or delete your personal data at any time. Email us at <strong>privacy@freshfold.in</strong> and we'll handle it within 7 business days.</p>
+
+        <h3>7. Contact</h3>
+        <p>Questions about this policy? Reach us at <strong>mail@site.com</strong> or call <strong>+91 91234 56780</strong>.</p>
+      </div>
+    </template>
+
+    <!-- TERMS OF USE CONTENT -->
+    <template id="tpl-terms">
+      <div class="doc-wrap">
+        <div class="doc-badge">📋 Terms</div>
+        <h2>Terms of Use</h2>
+        <p class="doc-date">Effective date: January 1, 2024</p>
+
+        <p>Welcome to FreshFold! By using our website or booking our services, you agree to the following terms. If you don't agree — well, we still hope you reconsider, because we do <em>really</em> good laundry.</p>
+
+        <h3>1. Use of Service</h3>
+        <ul>
+          <li>You must be at least 18 years old to place an order.</li>
+          <li>You agree to provide accurate pickup details. We're not responsible for missed pickups due to incorrect addresses.</li>
+          <li>FreshFold services are available in select cities only. Check availability before booking.</li>
+        </ul>
+
+        <h3>2. Booking & Cancellation</h3>
+        <ul>
+          <li>Bookings can be cancelled up to <strong>2 hours</strong> before the scheduled pickup time for a full refund.</li>
+          <li>Cancellations after the pickup window are non-refundable.</li>
+          <li>We reserve the right to reschedule in case of unforeseen circumstances (bad weather, etc.).</li>
+        </ul>
+
+        <h3>3. Garment Care Liability</h3>
+        <ul>
+          <li>We treat every garment with professional care, but we are not liable for pre-existing damage, colour bleeding, or shrinkage caused by the manufacturer's fabric.</li>
+          <li>Please inform us of any delicate items or special instructions before pickup.</li>
+          <li>Claims for damaged items must be raised within <strong>24 hours</strong> of delivery.</li>
+        </ul>
+
+        <h3>4. Intellectual Property</h3>
+        <p>All content on this website — logos, text, illustrations — belongs to FreshFold. Do not reproduce or redistribute without written permission.</p>
+
+        <h3>5. Changes to Terms</h3>
+        <p>We may update these terms occasionally. Continued use of the service after updates means you accept the new terms.</p>
+
+        <h3>6. Governing Law</h3>
+        <p>These terms are governed by the laws of India. Any disputes shall be resolved in the courts of Mumbai, Maharashtra.</p>
+      </div>
+    </template>
+
+    <!-- REFUND POLICY CONTENT -->
+    <template id="tpl-refund">
+      <div class="doc-wrap">
+        <div class="doc-badge">💰 Refunds</div>
+        <h2>Refund Policy</h2>
+        <p class="doc-date">Last updated: June 7, 2026</p>
+
+        <p>We stand behind the quality of our work. If something goes wrong, we make it right — no questions asked (well, maybe a couple of questions, but we'll be polite about it).</p>
+
+        <h3>✅ Full Refund Eligible If:</h3>
+        <ul>
+          <li>You cancel your booking at least <strong>2 hours</strong> before the scheduled pickup.</li>
+          <li>We failed to pick up your clothes on the scheduled date/time.</li>
+          <li>We delivered the wrong order.</li>
+          <li>Your garment was damaged during our cleaning process (verified by our quality team).</li>
+        </ul>
+
+        <h3>⚠️ Partial Refund Eligible If:</h3>
+        <ul>
+          <li>We delivered late by more than 4 hours without prior notice — 25% refund on the affected order.</li>
+          <li>A specific service was not performed as requested — refund for that item only.</li>
+        </ul>
+
+        <h3>❌ Non-Refundable:</h3>
+        <ul>
+          <li>Cancellations made less than 2 hours before pickup.</li>
+          <li>Damage caused by pre-existing fabric defects or undisclosed garment conditions.</li>
+          <li>Colour bleeding due to non-colourfast dyes (please inform us beforehand).</li>
+          <li>Express service fee once the order is picked up.</li>
+        </ul>
+
+        <h3>How to Request a Refund</h3>
+        <ol>
+          <li>Email <strong>refunds@freshfold.in</strong> with your Booking ID and a brief description.</li>
+          <li>Attach photos if the issue is garment-related.</li>
+          <li>Our team will respond within <strong>48 hours</strong>.</li>
+          <li>Approved refunds are processed within <strong>5–7 business days</strong> to your original payment method.</li>
+        </ol>
+
+        <h3>Contact for Refunds</h3>
+        <p><strong>Email:</strong> refunds@freshfold.in<br/>
+        <strong>Phone:</strong> +91 91234 56780 (Mon–Sat, 9 AM – 6 PM)</p>
+      </div>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
