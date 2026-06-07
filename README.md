@@ -15,6 +15,14 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2196F3&center=true&vCenter=true&width=700&lines=No+React.+No+Vue.+No+problem.;Vanilla+JS+supremacy+%F0%9F%91%8A;Your+clothes+were+suffering.+We+fixed+that.;EmailJS+goes+absolutely+crazy+%F0%9F%94%A5;Zero+node_modules.+Zero+regrets." alt="Typing SVG" />
 
+<br/>
+
+### 🌐 [https://coruseassignment04.netlify.app/](https://coruseassignment04.netlify.app/)
+
+> Click it. Your clothes will thank you.
+
+
+
 </div>
 
 ---
@@ -361,6 +369,9 @@ python -m http.server  # Python  — http://localhost:8000
 ### Built by **Mepaayush** · Tutedude MERN Stack · Assignment 04
 
 *No node_modules were harmed in the making of this project.*
+
+🌐 **Live:** [https://coruseassignment04.netlify.app/](https://coruseassignment04.netlify.app/)  
+🐙 **Repo:** [github.com/Nick-ded/Tutedude_assigment_04Mern_Stack](https://github.com/Nick-ded/Tutedude_assigment_04Mern_Stack)
 
 **⭐ Star this if your shirts are cleaner now**
 
